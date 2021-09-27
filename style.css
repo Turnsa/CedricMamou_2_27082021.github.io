@@ -363,3 +363,44 @@ footer{
     flex-direction: column;
     line-height: 1.8em;
 }
+/*desktop petit écran*/
+@media screen and (max-width : 1370px) {
+    /* général */
+    body{
+        font-size: 10px;
+    }
+    /* bloc hébergement */
+    .bloc_hebergement{
+        height: 500px;
+    }
+    .imgHebergement{
+        height: 80px;
+    }
+    /* bloc populaire */
+    .bloc_populaire{
+        height: 500px;
+    }
+    .imgPopulaire{
+        height: 120px;
+    }
+    /* bloc activités */
+    .activites{
+        padding-bottom: 0;
+        gap: 25px 25px;
+    }
+    .activites_L img{
+        height: 250px;
+    }
+    .activites_1 img{
+        height: 90px;
+    }
+    .activites_2 img{
+        height: 65px;
+    }
+    .activites_3 img{
+        height: 70px;
+    }
+    .activites_4 img{
+        height: 80px;
+    }
+}
