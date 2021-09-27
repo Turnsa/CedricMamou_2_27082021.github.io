@@ -404,3 +404,52 @@ footer{
         height: 80px;
     }
 }
+/* responsive tablette */
+@media screen and (max-width : 990px){
+    header, main{
+        margin: 0;
+    }
+    header{
+        padding: 0 20px 0 20px;
+    }
+    .search h1, .search p, form, .filtres{
+        padding: 0 5.5vw;
+    }
+    /* bloc populaire */
+    .HebergementPopulaire{
+        display: flex;
+        flex-flow: wrap column-reverse;
+    }
+    .bloc_vignettes_populaire{
+        display: flex;
+        justify-content: space-between;
+    }
+    .vignette_populaire{
+        width: 30%;
+    }
+    .bloc_populaire{
+        box-sizing: border-box;
+        border-radius: 0;
+        margin: 0 0 2% 0;
+        padding: 0 20px 0 20px;
+        padding-bottom: 25px;
+    }
+    /* bloc hebergement */
+    .bloc_hebergement{
+        margin-right: 0;
+    }
+    #hebergement{
+        background-color: unset;
+    }
+    /* activités */
+    #activites{
+        padding: 0 20px 0 20px;
+    }
+    #activites h1{
+        padding-bottom: 15px;
+    }
+    #activites h3{
+        font-size: 11px;
+        padding-left: 10px;
+    }
+}
