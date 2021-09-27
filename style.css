@@ -453,3 +453,152 @@ footer{
         padding-left: 10px;
     }
 }
+/* mobile */
+@media screen and (max-width : 768px){
+    /* propriétés principales mobile */
+    body{
+        font-size: min(4vw, 13px);
+    }
+    main, header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        }
+    /* header mobile */
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #logo{
+        padding: 5vw 0 0 5.5vw;
+    }
+    nav{
+        flex-wrap: unset;
+        width: 100%;
+        margin: 0;
+    }
+    .headerbutton{
+        width: 100%;
+        border-top: unset;
+        border-bottom: solid 2px #f2f2f2;
+        text-align: center;
+    }
+    .headerbutton:hover{
+        color: #0065FC ;
+        border-color: #0065FC;
+    }
+    #inscription{
+        position: absolute;
+        right: 20px;
+        top: 0px;
+    }
+    /* section recherche mobile */
+    .search{
+        width: 100%;
+    }
+    
+    #recherche{
+        width: 100%;
+        max-width: 200px;
+    }
+    .search_button{
+        display: none;
+    }
+    .loupe{
+        position: relative;
+        right: 25px;
+        display: initial;
+        color: #fff;
+        border: solid 3px #0065FC;
+        background-color: #0065FC;
+        min-width: 47px;
+        border-radius: 15px;
+    }
+    .filtres{
+        flex-direction: column;
+        align-items: unset;
+    }
+    li{
+        margin-right: 0.5em;
+    }
+    .info{
+        float: left;
+        position: relative;
+        bottom: 3px;
+    }    
+    /* section populaire mobile */
+    .bloc_vignettes_populaire{
+        display: unset;
+    }
+    .titre_populaire{
+        margin: 4%;
+    }
+    .vignette_populaire{
+        width: unset;
+
+    }
+    .imgPopulaire{
+        max-height: 135px;
+    }
+    /* hebergement */
+    .HebergementPopulaire{
+        width: 100%;
+    }
+    #hebergement{
+        background-color: unset;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 0 20px 0 20px;
+    }  
+    #hebergement h2, #hebergement p:last-child{
+        padding-left: 4%;
+    }
+    #hebergement .stars{
+        margin-bottom: 5px;
+    }
+    .bloc1{
+        display: unset;
+        margin-bottom: 0;
+    }
+    .bloc2{
+        display: unset;
+        margin-top: 0;
+    }
+    .vignette_hebergement{
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    /* activités */
+    #activites{
+        box-sizing: border-box;
+    }
+    .activites{
+        display: unset;
+    }
+    #activites h1{
+        margin-bottom: 20px;
+    }
+    .bloc_activites{
+        width: 100%;
+    }
+    .vignette_activite{
+        margin-bottom: 15px;
+    }
+    .img_activites{
+        min-height: 135px;
+        max-height: 135px;
+    }
+    /* footer mobile */
+    footer{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    footer h3{
+        margin-bottom: 15px;
+    }
+    .footer_bloc{
+        padding: 0 30px 50px 30px;
+    }
+}
