@@ -1,0 +1,85 @@
+/* paramètres géneraux */
+body{
+    font-family: 'raleway', arial, sans-serif;
+    margin: 0 40px 0 40px;
+}
+input:focus {
+    outline:  none;
+}
+header, main{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+a:visited,a {
+    text-decoration: unset;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+.content{
+    display: contents;
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+}
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColumnCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexColumnAround{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flexColumnBetween{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.textGras{
+    font-weight: bold;
+}
+.radius{
+    border-radius: 20px 20px 20px 20px;
+}
+.shadow{
+    box-shadow: 3px 3px 10px lightgrey;
+}
+.colorBlue{
+    color: #0065FC;
+}
+.colorLightBlue{
+    color: #deebff;
+}
+.colorGrey{
+    color: #f2f2f2;
+}
+.colorDarkGrey{
+    color: #d9d9d9;
+}
+.backgroundBlue{
+    background-color: #0065FC;
+}
+.backgroundLightBlue{
+    background-color: #deebff;
+}
+.backgroundGrey{
+    background-color: #f2f2f2;
+}
+.borderColorblue{
+    border-color: #0065FC;
+}
