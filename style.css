@@ -346,3 +346,20 @@ li:hover{
     height: 150px;
     border-radius: 20px 20px 0 0;
 }
+/* footer */
+footer{
+    display: flex;
+    margin-top: 3.5em;
+    background-color: #f2f2f2;
+}
+.footer_bloc{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 50px;
+}
+.footer_link{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8em;
+}
