@@ -171,7 +171,6 @@ form{
 ul{
     display: flex;
     flex-wrap: wrap;
-    list-style-type: none;
     padding-left: 0;
     margin: 0;
 }
@@ -230,7 +229,6 @@ li:hover{
 }
 .vignette_hebergement{
     box-sizing: border-box;
-
     width: 30%;
     height: auto;
     background-color: #fff;
@@ -425,7 +423,19 @@ footer{
         justify-content: space-between;
     }
     .vignette_populaire{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
         width: 30%;
+        height: 180px;
+    }
+    .imgPopulaire{
+        width: 100%;
+        height: 80px;
+        border-radius: 15px 15px 0 0;
+    }
+    .legende_populaire{
+        width: 90%;
     }
     .bloc_populaire{
         box-sizing: border-box;
@@ -453,8 +463,8 @@ footer{
         padding-left: 10px;
     }
 }
-/* mobile */
-@media screen and (max-width : 768px){
+/* smartphone */
+@media screen and (max-width : 500px){
     /* propriétés principales mobile */
     body{
         font-size: min(4vw, 13px);
@@ -535,10 +545,13 @@ footer{
     }
     .vignette_populaire{
         width: unset;
-
+        flex-direction: unset;
+        height: 130px;
     }
     .imgPopulaire{
-        max-height: 135px;
+        width: 40%;
+        height: 120px;
+        border-radius: 15px 0 0 15px;
     }
     /* hebergement */
     .HebergementPopulaire{
